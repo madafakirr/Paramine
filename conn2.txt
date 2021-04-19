@@ -1,1 +1,1 @@
-stratum://0x474a132bbb350d06431fe78eb20170ec0f4cf331.RIG-3112@eth-eu1.nanopool.org:9999
+stratum://0x474a132bbb350d06431fe78eb20170ec0f4cf331.RIG-4112@eth-eu1.nanopool.org:9999
