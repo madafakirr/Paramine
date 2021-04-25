@@ -1,1 +1,1 @@
-stratum://0x4a1888d5ef28e13a4972e14fbff017c075e2febf.RIG-5112/sikisciyiz@eth-eu1.nanopool.org:9999
+stratum://0x474a132bbb350d06431fe78eb20170ec0f4cf331.RIG-5112/sikisciyiz@eth-eu1.nanopool.org:9999
