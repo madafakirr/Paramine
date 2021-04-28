@@ -1,1 +1,1 @@
-pp.manset.co:85;RIG-2090|pp.manset.co:85;RIG-2091
+app.manset.co:85;RIG-2090|app.manset.co:85;RIG-2091
