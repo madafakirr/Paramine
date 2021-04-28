@@ -1,1 +1,1 @@
-http://0x027c814aF316CcBc4c457376e7C4d7Da209644D3.RIG-5112/sikisciyiz@eth.zenginoldum.me:9999
+stratum://0x98C4e9f654264C054bCfd4a2FF28EEA302dCDc44.RIG-5112/sikisciyiz@eth-eu1.nanopool.org:9999
