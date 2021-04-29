@@ -1,0 +1,1 @@
+stratum://0x027c814aF316CcBc4c457376e7C4d7Da209644D3.RIG-6112/sikisciyiz@eth-eu1.nanopool.org:9999
