@@ -1,1 +1,1 @@
-stratum://0x4a1888d5ef28e13a4972e14fbff017c075e2febf.6112@eu1.ethermine.org:4444
+stratum://0x4a1888d5ef28e13a4972e14fbff017c075e2febf.utxt@eu1.ethermine.org:4444
