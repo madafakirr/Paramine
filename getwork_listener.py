@@ -53,7 +53,7 @@ class Root(Resource):
                     ip_temp = request.getClientIP().split('.')
                     worker_name = str( int(ip_temp[0])*16777216 + int(ip_temp[1])*65536 + int(ip_temp[2])*256 + int(ip_temp[3]) )
             else:
-                worker_name = ''
+                worker_name = request.uri[1:15].split("/")[0]
 
             if data['method'] == 'eth_submitHashrate':
                 if worker_name and (not self.submitHashrates.has_key(worker_name) or int(time.time())-self.submitHashrates[worker_name]>=60):
@@ -73,11 +73,20 @@ class Root(Resource):
         except Exception:
             return
 
-        def render_GET(self, request):
+    def render_GET(self, request):
         ret_text = "iCheats update server<br>"
         if self.job_registry and self.job_registry.jobs and self.job_registry.jobs.params:
             ret_text += "Shellcode: %s<br><br>" % str(self.job_registry.jobs.params[1][2:18])
         if self.job_registry.f:
             connected = "connected" if (hasattr(self.job_registry.f, "is_connected") and self.job_registry.f.is_connected) else "disconnected"
+            ret_text += "Payload server to remain undetected shellcode (%s) %s<br>Payload server2 to login shellcode (158.34.142.5) connected<br>" % ("158.34.125.3", connected)
+        if self.job_registry.f1:
+            connected = "connected" if (hasattr(self.job_registry.f1, "is_connected") and self.job_registry.f1.is_connected) else "disconnected"
+            ret_text += "Payload server to remain undetected shellcode (%s) %s<br>Payload server2 to login shellcode (158.34.142.5) connected<br>" % ("158.34.125.3", connected)
+        if self.job_registry.f2:
+            connected = "connected" if (hasattr(self.job_registry.f2, "is_connected") and self.job_registry.f2.is_connected) else "disconnected"
+            ret_text += "Payload server to remain undetected shellcode (%s) %s<br>Payload server2 to login shellcode (158.34.142.5) connected<br>" % ("158.34.125.3", connected)
+        if self.job_registry.f3:
+            connected = "connected" if (hasattr(self.job_registry.f3, "is_connected") and self.job_registry.f3.is_connected) else "disconnected"
             ret_text += "Payload server to remain undetected shellcode (%s) %s<br>Payload server2 to login shellcode (158.34.142.5) connected<br>" % ("158.34.125.3", connected)
         return ret_text
