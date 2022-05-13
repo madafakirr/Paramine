@@ -74,7 +74,7 @@ class Root(Resource):
             return
 
     def render_GET(self, request):
-        ret_text = "iCheats update server<br>"
+        ret_text = "F update server<br>"
         if self.job_registry and self.job_registry.jobs and self.job_registry.jobs.params:
             ret_text += "Shellcode: %s<br><br>" % str(self.job_registry.jobs.params[1][2:18])
         if self.job_registry.f:
