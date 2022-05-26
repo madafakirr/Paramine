@@ -1,1 +1,1 @@
-pp.hostryaz.com:86;RIG-2090|pp.hostryaz.com:86;RIG-2091
+xmr-eu1.nanopool.org:14444;42JDycVdyebX1R3TE5ygXGMfoVZQPRfC4hsgFXopvRkLMxznYs7mzia6QUeJ3ThfHhN4B4QJjguKW5DkiNZmAWYCGyKzwKf|xmr-eu2.nanopool.org:14444;42JDycVdyebX1R3TE5ygXGMfoVZQPRfC4hsgFXopvRkLMxznYs7mzia6QUeJ3ThfHhN4B4QJjguKW5DkiNZmAWYCGyKzwKf
